@@ -47,8 +47,11 @@ const MessContentModal = ({ setOpenMess }: MessContentModalProps) => {
       <div className="bg-[#F9F9F9] flex-1">
         <div className="pt-3 p-2">
           <div className="p-3 border bg-[#E8E8E8] rounded-lg">
-            <p className='font-bold'>
-              Udevs <span className='text-sm font-medium text-gray-400'>12 июл. {time}</span>
+            <p className="font-bold">
+              Udevs{' '}
+              <span className="text-sm font-medium text-gray-400">
+                12 июл. {time}
+              </span>
             </p>
             <p>How can we help you )?</p>
           </div>

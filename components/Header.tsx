@@ -1,7 +1,7 @@
 'use client'
 
 import { navLinks } from '@/constants'
-import { Menu } from 'lucide-react'
+import { Instagram, Menu, Twitter, X, Youtube } from 'lucide-react'
 import Link from 'next/link'
 import { useState } from 'react'
 import Button from './Button'
@@ -9,8 +9,9 @@ import MaxWidth from './MaxWidth'
 
 const Header = () => {
   const [nav, setNav] = useState('')
+  const [openModal, setOpenModal] = useState(false)
   return (
-    <div className="py-5 fixed top-0 left-0 right-0 border-b-[1px]">
+    <div className="py-5 bg-white fixed top-0 left-0 right-0 border-b-[1px]">
       <MaxWidth className="flex items-center justify-between">
         <Link href="/">
           <img width={100} height={100} src="/logog.svg" alt="logo" />
@@ -20,7 +21,8 @@ const Header = () => {
             return (
               <FlyoutLink
                 FlyoutContent={
-                  (index == 2 || index == 5 || index == 6) && link.dropDown && <link.dropDown />
+                  (index == 2 || index == 5 || index == 6) &&
+                  link.dropDown && <link.dropDown />
                 }
                 key={index}
               >
@@ -46,8 +48,67 @@ const Header = () => {
             <Button>Contact</Button>
           </li>
         </ul>
-        <Menu className="max-[944px]:block hidden cursor-pointer text-blue-600" />
+        <Menu
+          onClick={() => setOpenModal((prev) => !prev)}
+          className="max-[944px]:block hidden cursor-pointer text-blue-600"
+        />
       </MaxWidth>
+      {openModal && (
+        <div className="fixed flex-col min-[944px]:hidden flex z-20 right-0 left-0 top-0 bottom-0 bg-[#F4F7FF] p-5">
+          <div className="flex justify-between items-center mb-5">
+            <Link href="/">
+              <img width={100} height={100} src="/logog.svg" alt="logo" />
+            </Link>
+            <X
+              onClick={() => setOpenModal(false)}
+              className="cursor-pointer text-blue-600"
+            />
+          </div>
+          <ul className="flex flex-col justify-center mt-32 text-center gap-4">
+            <li>
+              <Link
+                href="#"
+                className="text-4xl font-medium"
+                onClick={() => setOpenModal(false)}
+              >
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#"
+                className="text-4xl font-medium"
+                onClick={() => setOpenModal(false)}
+              >
+                Clients
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="#"
+                className="text-4xl font-medium"
+                onClick={() => setOpenModal(false)}
+              >
+                Command
+              </Link>
+            </li>
+          </ul>
+          <Button className="w-full mt-48 text-center hover:scale-105 py-4 text-xl transition-all duration-200">
+            Contact
+          </Button>
+          <div className="flex items-center justify-center gap-5 mt-10 text-center w-full">
+            <span className="w-11 h-11 flex justify-center items-center cursor-pointer text-white rounded-full bg-[#1B5BF7]">
+              <Instagram />
+            </span>
+            <span className="w-11 h-11 flex justify-center items-center cursor-pointer text-white rounded-full bg-[#1B5BF7]">
+              <Twitter />
+            </span>
+            <span className="w-11 h-11 flex justify-center items-center cursor-pointer text-white rounded-full bg-[#1B5BF7]">
+              <Youtube />
+            </span>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
@@ -88,6 +149,5 @@ const FlyoutLink = ({
     </div>
   )
 }
-
 
 export default Header

@@ -14,11 +14,12 @@ const MessageModal = () => {
         </div>
       )}
 
-      {!openMess && <span className="fixed right-9 bottom-9 cursor-pointer">
+      {!openMess && <span className="fixed right-9 bottom-9 cursor-pointer z-10">
         <img
           onClick={() => setOpenMess((prev) => !prev)}
           width={60}
           height={60}
+          className='z-10'
           src="/message.webp"
           alt=""
         />
