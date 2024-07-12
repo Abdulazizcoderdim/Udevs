@@ -1,4 +1,5 @@
 import { serviceSub } from '@/constants'
+import Link from 'next/link'
 
 const ServiceSub = () => {
   return (
@@ -8,11 +9,14 @@ const ServiceSub = () => {
       </p>
       <ul className="">
         {serviceSub.map((item, index) => (
-          <li key={index} className="py-2 pr-[11px] pl-[34px] border cursor-pointer hover:bg-blue-600 hover:text-white w-full flex items-center transition-all duration-200 group">
-            <span className="min-w-12 min-h-12 text-center flex items-center justify-center rounded-full mr-6 bg-blue-100 group-hover:bg-white">
-              {item.icon}
+          <li
+            key={index}
+            className="py-2 pr-[11px] pl-[34px] cursor-pointer hover:bg-blue-600 hover:text-white w-full flex items-center transition-all duration-200 group"
+          >
+            <span className="min-w-12 min-h-12 text-blue-600 text-center flex items-center justify-center rounded-full mr-6 bg-blue-100 group-hover:bg-white">
+              {<item.icon />}
             </span>
-            Development of mobile applications
+            <Link href={item.href}>{item.name}</Link>
           </li>
         ))}
       </ul>

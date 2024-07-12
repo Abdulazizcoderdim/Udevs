@@ -1,7 +1,14 @@
 import LanguageSub from '@/components/LanguageSub'
 import PortfolioSub from '@/components/PortfolioSub'
 import ServiceSub from '@/components/ServiceSub'
-import { ChevronDown, Database, GitGraph, Monitor, Settings, Smartphone } from 'lucide-react'
+import {
+  ChevronDown,
+  Database,
+  GitGraph,
+  Monitor,
+  Settings,
+  Smartphone,
+} from 'lucide-react'
 
 export const navLinks = [
   {
@@ -53,7 +60,7 @@ export const serviceSub = [
   },
   {
     name: 'User interface, User experience design',
-    icon:  Database,
+    icon: Database,
     href: '#',
   },
   {
@@ -65,5 +72,35 @@ export const serviceSub = [
     name: 'Optimization IT consulting infrastructure',
     icon: Settings,
     href: '#',
+  },
+]
+export const portfolioSub = [
+  {
+    name: 'Delever',
+    icon: 'D',
+    href: '#',
+    bg: '#FFDDD3',
+    text: '#FF5722',
+  },
+  {
+    name: 'Sms.uz',
+    icon: 'S',
+    href: '#',
+    bg: '#F4F7FF',
+    text: '#1B5BF7',
+  },
+  {
+    name: 'Goodzone',
+    icon: 'G',
+    href: '#',
+    bg: '#FDCCCC',
+    text: '#F50000',
+  },
+  {
+    name: 'Iman',
+    icon: 'I',
+    href: '#',
+    bg: '#CCF4Ef',
+    text: '#01CAB0',
   },
 ]

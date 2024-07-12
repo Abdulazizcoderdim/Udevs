@@ -15,6 +15,7 @@ const Header = () => {
         <Link href="/">
           <img width={100} height={100} src="/logog.svg" alt="logo" />
         </Link>
+        <input type="color" />
         <ul className="flex max-[944px]:hidden items-center gap-10">
           {navLinks.map((link, index) => {
             return (
