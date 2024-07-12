@@ -7,7 +7,7 @@ const Button = ({
 }) => {
   return (
     <div
-      className={`${className} inline-block cursor-pointer bg-[#1B5BF7] px-8 font-medium py-2 rounded-md text-white`}
+      className={`inline-block cursor-pointer bg-[#1B5BF7] text-center px-8 font-medium py-2 rounded-md text-white ${className}`}
     >
       {children}
     </div>
