@@ -13,10 +13,10 @@ const PortfolioSub = () => {
             className="py-2 pr-[11px] pl-[34px] cursor-pointer hover:bg-blue-600 hover:text-white w-full flex items-center transition-all duration-200 group"
           >
             <span
-              style={{ backgroundColor: item.bg }}
-              className={`min-w-12 min-h-12 text-blue-600 text-center flex items-center justify-center rounded-full mr-6 group-hover:bg-white`}
+              style={{ backgroundColor: item.bg, color: item.text }}
+              className={`min-w-12 min-h-12 font-semibold text-blue-600 text-center flex items-center justify-center rounded-full mr-6 group-hover:bg-white`}
             >
-              {<item.icon />}
+              {item.icon}
             </span>
             {item.name}
           </li>
