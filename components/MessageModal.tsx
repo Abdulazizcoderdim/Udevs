@@ -9,7 +9,7 @@ const MessageModal = () => {
   return (
     <>
       {openMess && (
-        <div className="fixed top-0 right-0 w-96 shadow-2xl transition-all duration-200 z-20 bg-white bottom-0">
+        <div className="fixed top-0 right-0 w-96 shadow-2xl transition-all duration-200 z-40 bg-white bottom-0">
           <MessContentModal setOpenMess={setOpenMess} />
         </div>
       )}
