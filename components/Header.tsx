@@ -26,13 +26,7 @@ const Header = () => {
                 }
                 key={index}
               >
-                <li
-                  className={`${
-                    link.href === nav &&
-                    'border-b-2 border-blue-600 pb-2 cursor-pointer hover:border-b-2 transition-all duration-300 mt-2'
-                  }`}
-                  onClick={() => setNav(link.href)}
-                >
+                <li className="relative" onClick={() => setNav(link.href)}>
                   <Link
                     className="flex items-center text-sm font-medium "
                     href={link.href}
@@ -40,11 +34,17 @@ const Header = () => {
                     {link.name}
                     {link.icon && <link.icon width={15} />}
                   </Link>
+                  <span
+                    className={`${
+                      link.href === nav &&
+                      'absolute -bottom-2 right-0 left-0 h-[1.5px] bg-blue-600 rounded-s-lg'
+                    }`}
+                  />
                 </li>
               </FlyoutLink>
             )
           })}
-          <li>
+          <li className="hover:scale-105 transition-all duration-200">
             <Button>Contact</Button>
           </li>
         </ul>
@@ -139,7 +139,15 @@ const FlyoutLink = ({
       }}
       className="relative h-fit w-fit"
     >
-      <div>{children}</div>
+      <div className='relative'>
+        {children}
+        <span
+          className={`${
+            open &&
+            'absolute -bottom-2 right-0 left-0 h-[1.5px] bg-blue-600 rounded-s-lg'
+          }`}
+        />
+      </div>
       {showFlyout && (
         <div className="absolute rounded-lg left-1/2 top-8 -translate-x-1/2 bg-white text-black">
           <div className="absolute -top-2 left-0 right-0 h-4 bg-transparent" />
