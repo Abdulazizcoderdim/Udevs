@@ -20,14 +20,14 @@ const Header = () => {
             return (
               <FlyoutLink
                 FlyoutContent={
-                  (index == 2 || index == 5 || index == 6) && <PricingContent />
+                  (index == 2 || index == 5 || index == 6) && link.dropDown && <link.dropDown />
                 }
                 key={index}
               >
                 <li
                   className={`${
                     link.href === nav &&
-                    'border-b-2 border-blue-600 pb-2 hover:border-b-2 transition-all duration-300 mt-2'
+                    'border-b-2 border-blue-600 pb-2 cursor-pointer hover:border-b-2 transition-all duration-300 mt-2'
                   }`}
                   onClick={() => setNav(link.href)}
                 >
@@ -81,7 +81,7 @@ const FlyoutLink = ({
       <div>{children}</div>
       {showFlyout && (
         <div className="absolute rounded-lg left-1/2 top-6 -translate-x-1/2 bg-white text-black">
-          <div className="absolute -top-3 left-0 right-0 h-3 bg-transparent" />
+          <div className="absolute -top-0 left-0 right-0 h-3 bg-transparent" />
           {FlyoutContent}
         </div>
       )}
@@ -89,12 +89,5 @@ const FlyoutLink = ({
   )
 }
 
-const PricingContent = () => {
-  return (
-    <div className="w-64 h-24 bg-slate-50 p-6 shadow hover:shadow-lg transition duration-200 ">
-      assaassasa
-    </div>
-  )
-}
 
 export default Header
