@@ -1,6 +1,7 @@
 'use client'
 
 import { navLinks } from '@/constants'
+import { Menu } from 'lucide-react'
 import Link from 'next/link'
 import { useState } from 'react'
 import Button from './Button'
@@ -11,11 +12,10 @@ const Header = () => {
   return (
     <div className="py-5 border-b-[1px]">
       <MaxWidth className="flex items-center justify-between">
-        <Link href="/" >
-          {/* <h1 className='text-4xl font-bold'><span className='text-blue-600 underline underline-offset-4'>u</span>devs</h1> */}
+        <Link href="/">
           <img width={100} height={100} src="/logog.svg" alt="logo" />
         </Link>
-        <ul className="flex items-center gap-10">
+        <ul className="flex max-[944px]:hidden items-center gap-10">
           {navLinks.map((link, index) => {
             return (
               <li
@@ -40,6 +40,7 @@ const Header = () => {
             <Button>Contact</Button>
           </li>
         </ul>
+        <Menu className="max-[944px]:block hidden cursor-pointer text-blue-600" />
       </MaxWidth>
     </div>
   )
