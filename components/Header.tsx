@@ -80,8 +80,8 @@ const FlyoutLink = ({
     >
       <div>{children}</div>
       {showFlyout && (
-        <div className="absolute rounded-lg left-1/2 top-6 -translate-x-1/2 bg-white text-black">
-          <div className="absolute -top-0 left-0 right-0 h-3 bg-transparent" />
+        <div className="absolute rounded-lg left-1/2 top-8 -translate-x-1/2 bg-white text-black">
+          <div className="absolute -top-2 left-0 right-0 h-4 bg-transparent" />
           {FlyoutContent}
         </div>
       )}
