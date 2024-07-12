@@ -1,8 +1,11 @@
+import MessageModal from '@/components/MessageModal'
 
 export default function Home() {
   return (
-    <main>
-main
-    </main>
-  );
+    <>
+      <main className="h-[140vh]">main</main>
+
+      <MessageModal />
+    </>
+  )
 }
