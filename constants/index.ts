@@ -8,6 +8,7 @@ import {
   Monitor,
   Settings,
   Smartphone,
+  Users,
 } from 'lucide-react'
 
 export const navLinks = [
@@ -102,5 +103,32 @@ export const portfolioSub = [
     href: '#',
     bg: '#CCF4Ef',
     text: '#01CAB0',
+  },
+]
+
+export const servicesData = [
+  {
+    icon: Users,
+    title: 'Team',
+  },
+  {
+    icon: Smartphone,
+    title: 'Development of mobile applications',
+  },
+  {
+    icon: GitGraph,
+    title: 'Development and implementation ERP systems',
+  },
+  {
+    icon: Database,
+    title: 'User interface, User experience design',
+  },
+  {
+    icon: Settings,
+    title: 'Optimization IT consulting infrastructure',
+  },
+  {
+    icon: Monitor,
+    title: 'IT consulting',
   },
 ]
