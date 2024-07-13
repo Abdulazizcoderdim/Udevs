@@ -133,10 +133,29 @@ export const servicesData = [
   },
 ]
 
-
 export const erpSer = [
   {
     icon: '/crm.svg',
     title: 'CRM',
-  }
+  },
+  {
+    icon: '/eLearn.svg',
+    title: 'eLearning',
+  },
+  {
+    icon: '/ecom.svg',
+    title: 'E-Commerce',
+  },
+  {
+    icon: '/pos.svg',
+    title: 'POS',
+  },
+  {
+    icon: '/sms.svg',
+    title: 'Sms / Email',
+  },
+  {
+    icon: '/war.svg',
+    title: 'Warehouse',
+  },
 ]
