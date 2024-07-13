@@ -1,6 +1,7 @@
 import DevelopmentPage from '@/components/DevelopmentPage'
 import ERPSystem from '@/components/ERPSystem'
 import HomePage from '@/components/HomePage'
+import ITConsulting from '@/components/ITConsulting'
 import MessageModal from '@/components/MessageModal'
 import OptimizationPage from '@/components/OptimizationPage'
 import OurServicesPage from '@/components/OurServicesPage'
@@ -18,6 +19,7 @@ export default function Home() {
         <ERPSystem />
         <UxuiPage />
         <OptimizationPage />
+        <ITConsulting />
       </main>
 
       <MessageModal />

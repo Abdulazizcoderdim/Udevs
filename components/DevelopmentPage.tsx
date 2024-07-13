@@ -19,7 +19,7 @@ const DevelopmentPage = () => {
                   width={56}
                   height={56}
                   className="mb-3 text-blue-1"
-                  src="/apple.svg"
+                  src="/ios.svg"
                   alt=""
                 />
                 <p className="text-xl font-medium">IOS</p>
@@ -29,7 +29,7 @@ const DevelopmentPage = () => {
                   width={56}
                   height={56}
                   className="mb-3 text-blue-1"
-                  src="/brand-android.svg"
+                  src="/android.svg"
                   alt=""
                 />
                 <p className="text-xl font-medium">Android</p>
@@ -39,7 +39,7 @@ const DevelopmentPage = () => {
                   width={56}
                   height={56}
                   className="mb-3 text-blue-1"
-                  src="/phone-mobile.svg"
+                  src="/cross.svg"
                   alt=""
                 />
                 <p className="text-xl font-medium">Crossplatform</p>
