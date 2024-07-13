@@ -1,3 +1,4 @@
+import DevelopmentPage from '@/components/DevelopmentPage'
 import HomePage from '@/components/HomePage'
 import MessageModal from '@/components/MessageModal'
 import OurServicesPage from '@/components/OurServicesPage'
@@ -10,6 +11,7 @@ export default function Home() {
         <HomePage />
         <OurServicesPage />
         <TeamPage />
+        <DevelopmentPage />
       </main>
 
       <MessageModal />
