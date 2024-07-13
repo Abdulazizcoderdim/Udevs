@@ -132,3 +132,11 @@ export const servicesData = [
     title: 'IT consulting',
   },
 ]
+
+
+export const erpSer = [
+  {
+    icon: '/crm.svg',
+    title: 'CRM',
+  }
+]
