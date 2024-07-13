@@ -22,7 +22,7 @@ export const navLinks = [
   },
   {
     name: 'Services',
-    href: '#',
+    href: '#development',
     icon: ChevronDown,
     dropDown: ServiceSub,
   },

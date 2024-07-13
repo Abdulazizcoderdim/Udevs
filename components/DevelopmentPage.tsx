@@ -1,16 +1,15 @@
-import { url } from 'inspector'
 import MaxWidth from './MaxWidth'
 
 const DevelopmentPage = () => {
   return (
-    <MaxWidth className="py-24">
+    <MaxWidth className="py-24" id="development">
       <div>
-        <h1 className="text-64px font-extrabold leading-tight text-blue-1">
+        <h1 className="text-64px max-[944px]:text-[32px] font-extrabold leading-tight text-blue-1">
           Development of mobile <br /> applications
         </h1>
-        <div className="flex items-center mt-16 justify-between">
-          <div className="w-1/2 flex flex-col gap-10">
-            <p className="text-2xl font-medium text-[#18191f]">
+        <div className="flex max-[944px]:flex-col-reverse items-center mt-16 justify-between">
+          <div className="w-1/2 max-[944px]:w-full flex flex-col gap-10">
+            <p className="text-2xl max-[944px]:mt-5 max-[944px]:text-base font-medium text-[#18191f]">
               In collaboration with startups, we have learned how to create a
               creative and functional user interface for mobile applications.
             </p>
@@ -67,8 +66,11 @@ const DevelopmentPage = () => {
             </div>
           </div>
           <div
-            className="w-1/2 flex items-center justify-center"
-            style={{ backgroundImage: url(bgIma) }}
+            className="w-1/2 max-[944px]:w-full flex items-center justify-center"
+            style={{
+              backgroundImage: `url('/bg-de.png')`,
+              backgroundRepeat: 'no-repeat',
+            }}
           >
             <img src="/development.png" alt="" />
           </div>
