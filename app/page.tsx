@@ -6,6 +6,7 @@ import MessageModal from '@/components/MessageModal'
 import OptimizationPage from '@/components/OptimizationPage'
 import OurServicesPage from '@/components/OurServicesPage'
 import TeamPage from '@/components/TeamPage'
+import ToolsPage from '@/components/ToolsPage'
 import UxuiPage from '@/components/UxuiPage'
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <UxuiPage />
         <OptimizationPage />
         <ITConsulting />
+        <ToolsPage />
       </main>
 
       <MessageModal />

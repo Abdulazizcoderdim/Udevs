@@ -190,3 +190,270 @@ export const optimization = [
     title: 'CI / CD',
   },
 ]
+
+export const toolsLink = [
+  {
+    name: 'Frontend',
+  },
+  {
+    name: 'Backend',
+  },
+  {
+    name: 'Devops',
+  },
+  {
+    name: 'Testing',
+  },
+  {
+    name: 'UX/UI',
+  },
+  {
+    name: 'Infrastructure',
+  },
+  {
+    name: 'Mobile',
+  },
+]
+
+export const toolsData = [
+  {
+    icon: '/t1.svg',
+    title: 'Promotheus',
+    bg: '#a8bfff',
+  },
+  {
+    icon: '/t2.svg',
+    title: 'Loki',
+    bg: '#a8bfff',
+  },
+  {
+    icon: '/t3.svg',
+    title: 'Bitbucket',
+    bg: '#a8bfff',
+  },
+  {
+    icon: '/t4.svg',
+    title: 'Gitlab',
+    bg: '#a8bfff',
+  },
+  {
+    icon: '/t5.svg',
+    title: 'Kotlin',
+    bg: '#dbe5ff',
+  },
+  {
+    icon: '/t6.svg',
+    title: 'Android',
+    bg: '#dbe5ff',
+  },
+  {
+    icon: '/t7.svg',
+    title: 'Java',
+    bg: '#dbe5ff',
+  },
+  {
+    icon: '/t8.svg',
+    title: 'Azure',
+    bg: '#d1dde8',
+  },
+  {
+    icon: '/t9.svg',
+    title: 'GCP',
+    bg: '#d1dde8',
+  },
+  {
+    icon: '/t10.svg',
+    title: 'DigitalOcean',
+    bg: '#d1dde8',
+  },
+  {
+    icon: '/t11.svg',
+    title: 'AWS',
+    bg: '#d1dde8',
+  },
+  {
+    icon: '/t12.svg',
+    title: 'Kubernetes',
+    bg: '#d1dde8',
+  },
+  {
+    icon: '/t13.svg',
+    title: 'ELK',
+    bg: '#a8bfff',
+  },
+  {
+    icon: '/t14.svg',
+    title: 'Grafana',
+    bg: '#a8bfff',
+  },
+  {
+    icon: '/t15.svg',
+    title: 'Terraform',
+    bg: '#a8bfff',
+  },
+  {
+    icon: '/t16.svg',
+    title: 'IOS',
+    bg: '#dbe5ff',
+  },
+  {
+    icon: '/t17.svg',
+    title: 'Swift',
+    bg: '#dbe5ff',
+  },
+  {
+    icon: '/t18.svg',
+    title: 'Flutter',
+    bg: '#dbe5ff',
+  },
+  {
+    icon: '/t19.svg',
+    title: 'Next.JS',
+    bg: '#c6d6ff',
+  },
+  {
+    icon: '/t20.svg',
+    title: 'React.JS',
+    bg: '#c6d6ff',
+  },
+  {
+    icon: '/t21.svg',
+    title: 'JavaScript',
+    bg: '#c6d6ff',
+  },
+  {
+    icon: '/t22.svg',
+    title: 'Balsamic',
+    bg: '#ced6ee',
+  },
+  {
+    icon: '/t23.svg',
+    title: 'Inision',
+    bg: '#ced6ee',
+  },
+  {
+    icon: '/t24.svg',
+    title: 'Figma',
+    bg: '#ced6ee',
+  },
+  {
+    icon: '/t25.svg',
+    title: 'Docker',
+    bg: '#a8bfff',
+  },
+  {
+    icon: '/t26.svg',
+    title: 'PostgreSQL',
+    bg: '#bddaed',
+  },
+  {
+    icon: '/t27.svg',
+    title: 'Python',
+    bg: '#bddaed',
+  },
+  {
+    icon: '/t28.svg',
+    title: 'Node.JS',
+    bg: '#bddaed',
+  },
+  {
+    icon: '/t29.svg',
+    title: 'PHP',
+    bg: '#bddaed',
+  },
+  {
+    icon: '/t30.svg',
+    title: 'GO',
+    bg: '#bddaed',
+  },
+  {
+    icon: '/t31.svg',
+    title: 'Ant Design',
+    bg: '#c6d6ff',
+  },
+  {
+    icon: '/t32.svg',
+    title: 'Gatsby.JS',
+    bg: '#c6d6ff',
+  },
+  {
+    icon: '/t33.svg',
+    title: 'Vue.JS',
+    bg: '#c6d6ff',
+  },
+  {
+    icon: '/t34.svg',
+    title: 'Principle',
+    bg: '#ced6ee',
+  },
+  {
+    icon: '/t35.svg',
+    title: 'Sketch',
+    bg: '#ced6ee',
+  },
+  {
+    icon: '/t36.svg',
+    title: 'Adobe suite',
+    bg: '#ced6ee',
+  },
+  {
+    icon: '/t37.svg',
+    title: 'YouTrack',
+    bg: '#e1e9fe',
+  },
+  {
+    icon: '/t38.svg',
+    title: 'Applium',
+    bg: '#e1e9fe',
+  },
+  {
+    icon: '/t39.svg',
+    title: 'Cypress',
+    bg: '#e1e9fe',
+  },
+  {
+    icon: '/t40.svg',
+    title: 'Jmeter',
+    bg: '#e1e9fe',
+  },
+  {
+    icon: '/t41.svg',
+    title: 'MongoDB',
+    bg: '#bddaed',
+  },
+  {
+    icon: '/t42.svg',
+    title: 'Cassandra',
+    bg: '#bddaed',
+  },
+  {
+    icon: '/t43.svg',
+    title: 'Sass',
+    bg: '#c6d6ff',
+  },
+  {
+    icon: '/t44.svg',
+    title: 'Material UI',
+    bg: '#c6d6ff',
+  },
+  {
+    icon: '/t45.svg',
+    title: 'Zeplin',
+    bg: '#ced6ee',
+  },
+  {
+    icon: '/t46.svg',
+    title: 'Illustrator',
+    bg: '#ced6ee',
+  },
+  {
+    icon: '/t47.svg',
+    title: 'Lottie',
+    bg: '#ced6ee',
+  },
+  {
+    icon: '/t48.svg',
+    title: 'Photoshop',
+    bg: '#ced6ee',
+  }
+]
