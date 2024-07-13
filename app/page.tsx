@@ -1,6 +1,7 @@
 import HomePage from '@/components/HomePage'
 import MessageModal from '@/components/MessageModal'
 import OurServicesPage from '@/components/OurServicesPage'
+import TeamPage from '@/components/TeamPage'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <main>
         <HomePage />
         <OurServicesPage />
+        <TeamPage />
       </main>
 
       <MessageModal />

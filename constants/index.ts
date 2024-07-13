@@ -14,15 +14,15 @@ import {
 export const navLinks = [
   {
     name: 'Direction',
-    href: '#',
+    href: '#services',
   },
   {
     name: 'Command',
-    href: '#command',
+    href: '#team',
   },
   {
     name: 'Services',
-    href: '#services',
+    href: '#',
     icon: ChevronDown,
     dropDown: ServiceSub,
   },

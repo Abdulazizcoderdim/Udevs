@@ -3,7 +3,7 @@ import MaxWidth from './MaxWidth'
 
 const OurServicesPage = () => {
   return (
-    <MaxWidth className="py-24">
+    <MaxWidth className="py-24" id="services">
       <div className="">
         <h1 className="text-64px max-[944px]:text-center max-[944px]:text-4xl max-[944px]:font-medium font-semibold text-blue-1">Our Services</h1>
         <div className="grid grid-cols-3 max-[944px]:grid-cols-2 gap-7 mt-16">
