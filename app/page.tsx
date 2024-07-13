@@ -4,6 +4,7 @@ import HomePage from '@/components/HomePage'
 import MessageModal from '@/components/MessageModal'
 import OurServicesPage from '@/components/OurServicesPage'
 import TeamPage from '@/components/TeamPage'
+import UxuiPage from '@/components/uxuiPage'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <TeamPage />
         <DevelopmentPage />
         <ERPSystem />
+        <UxuiPage />
       </main>
 
       <MessageModal />
