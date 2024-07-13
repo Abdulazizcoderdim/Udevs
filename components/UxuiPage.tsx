@@ -2,7 +2,7 @@ import MaxWidth from './MaxWidth'
 
 const UxuiPage = () => {
   return (
-    <MaxWidth className="py-24" id="development">
+    <MaxWidth className="py-24" id="uxui">
       <div>
         <h1 className="text-64px max-[944px]:text-[32px] font-extrabold leading-tight text-blue-1">
           UI / UX design

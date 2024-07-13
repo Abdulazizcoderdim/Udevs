@@ -159,3 +159,34 @@ export const erpSer = [
     title: 'Warehouse',
   },
 ]
+
+export const optimization = [
+  {
+    icon: '/art.svg',
+    title: 'Architecture',
+  },
+  {
+    icon: '/auto.svg',
+    title: 'Auto testing',
+  },
+  {
+    icon: '/stre.svg',
+    title: 'Stress testing',
+  },
+  {
+    icon: '/load.svg',
+    title: 'Load testing',
+  },
+  {
+    icon: '/dev.svg',
+    title: 'Devops',
+  },
+  {
+    icon: '/clo.svg',
+    title: 'Cloud',
+  },
+  {
+    icon: '/ci.svg',
+    title: 'CI / CD',
+  },
+]
