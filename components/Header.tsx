@@ -11,9 +11,12 @@ const Header = () => {
   const [nav, setNav] = useState('')
   const [openModal, setOpenModal] = useState(false)
   return (
-    <div className="py-5 z-30 bg-white fixed top-0 left-0 right-0 border-b-[1px]">
+    <div
+      id="home"
+      className="py-5 z-30 bg-white fixed top-0 left-0 right-0 border-b-[1px]"
+    >
       <MaxWidth className="flex items-center justify-between">
-        <Link href="/">
+        <Link href="#home">
           <img width={100} height={100} src="/logog.svg" alt="logo" />
         </Link>
         <ul className="flex max-[944px]:hidden items-center gap-10">
