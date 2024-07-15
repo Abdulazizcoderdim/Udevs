@@ -3,7 +3,7 @@ import MaxWidth from './MaxWidth'
 
 const ERPSystem = () => {
   return (
-    <div className="bg-[#f4f7ff]">
+    <div id='erp' className="bg-[#f4f7ff]">
       <MaxWidth className="py-24">
         <div>
           <h1 className="text-64px max-[944px]:text-[32px] font-extrabold text-blue-1">ERP system</h1>

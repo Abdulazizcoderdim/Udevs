@@ -1,4 +1,5 @@
 import { portfolioSub } from '@/constants'
+import Link from 'next/link'
 
 const PortfolioSub = () => {
   return (
@@ -8,18 +9,17 @@ const PortfolioSub = () => {
       </p>
       <ul className="">
         {portfolioSub.map((item, index) => (
-          <li
-            key={index}
-            className="py-2 pr-[11px] pl-[34px] cursor-pointer hover:bg-blue-600 hover:text-white w-full flex items-center transition-all duration-200 group"
-          >
-            <span
-              style={{ backgroundColor: item.bg, color: item.text }}
-              className={`min-w-12 min-h-12 font-semibold text-blue-600 text-center flex items-center justify-center rounded-full mr-6 group-hover:bg-white`}
-            >
-              {item.icon}
-            </span>
-            {item.name}
-          </li>
+          <Link key={index} href={item.href}>
+            <li className="py-2 pr-[11px] pl-[34px] cursor-pointer hover:bg-blue-600 hover:text-white w-full flex items-center transition-all duration-200 group">
+              <span
+                style={{ backgroundColor: item.bg, color: item.text }}
+                className={`min-w-12 min-h-12 font-semibold text-blue-600 text-center flex items-center justify-center rounded-full mr-6 group-hover:bg-white`}
+              >
+                {item.icon}
+              </span>
+              {item.name}
+            </li>
+          </Link>
         ))}
       </ul>
     </div>

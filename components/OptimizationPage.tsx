@@ -3,7 +3,7 @@ import MaxWidth from './MaxWidth'
 
 const OptimizationPage = () => {
   return (
-    <div className="bg-[#f4f7ff]">
+    <div id='optimization' className="bg-[#f4f7ff]">
       <MaxWidth className="py-24">
         <div>
           <h1 className="text-64px leading-none max-[944px]:text-[32px] font-extrabold text-blue-1">

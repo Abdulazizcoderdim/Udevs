@@ -3,7 +3,7 @@ import MaxWidth from './MaxWidth'
 
 const DeleverPage = () => {
   return (
-    <MaxWidth id='delever' className="bg-white py-24">
+    <MaxWidth id="portfoilo" className="bg-white py-24">
       <div className="flex gap-10 max-[944px]:flex-col-reverse items-center justify-between">
         <div className="w-1/2 max-[944px]:w-full">
           <img src="/deleverPa.png" alt="" />

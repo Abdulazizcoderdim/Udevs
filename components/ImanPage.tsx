@@ -3,7 +3,7 @@ import MaxWidth from './MaxWidth'
 
 const ImanPage = () => {
   return (
-    <MaxWidth id="goodzone" className="bg-white py-24">
+    <MaxWidth id="iman" className="bg-white py-24">
       <div className="flex gap-10 flex-row-reverse max-[944px]:flex-col-reverse items-center justify-between">
         <div className="w-1/2 max-[944px]:w-full">
           <img src="/imanbg.png" alt="" />
