@@ -13,8 +13,8 @@ const DevelopmentPage = () => {
               In collaboration with startups, we have learned how to create a
               creative and functional user interface for mobile applications.
             </p>
-            <div className="flex items-center gap-4">
-              <div className="min-w-[150px] bg-[#f4f7ff] py-[10px] pr-5 pl-[10px] rounded-md">
+            <div className="flex items-center gap-2">
+              <div className="min-w-[120px] bg-[#f4f7ff] py-[10px] pr-5 pl-[10px] rounded-md">
                 <img
                   width={56}
                   height={56}
@@ -24,7 +24,7 @@ const DevelopmentPage = () => {
                 />
                 <p className="text-xl font-medium">IOS</p>
               </div>
-              <div className="min-w-[150px] bg-[#f4f7ff] py-[10px] pr-5 pl-[10px] rounded-md">
+              <div className="min-w-[120px] bg-[#f4f7ff] py-[10px] pr-5 pl-[10px] rounded-md">
                 <img
                   width={56}
                   height={56}
@@ -34,7 +34,7 @@ const DevelopmentPage = () => {
                 />
                 <p className="text-xl font-medium">Android</p>
               </div>
-              <div className="min-w-[150px] bg-[#f4f7ff] py-[10px] pr-5 pl-[10px] rounded-md">
+              <div className="min-w-[120px] bg-[#f4f7ff] py-[10px] pr-5 pl-[10px] rounded-md">
                 <img
                   width={56}
                   height={56}
