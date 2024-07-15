@@ -506,26 +506,53 @@ export const toolsData = [
   },
 ]
 
-
 export const delever = [
   {
     icon: '/web1.svg',
-    name: "Website"
+    name: 'Website',
   },
   {
     icon: '/web2.svg',
-    name: "Admin panel"
+    name: 'Admin panel',
   },
   {
     icon: '/web3.svg',
-    name: "Crossplatform"
+    name: 'Crossplatform',
   },
   {
     icon: '/web4.svg',
-    name: "Web design"
+    name: 'Web design',
   },
   {
     icon: '/web5.svg',
-    name: "Mobile design"
+    name: 'Mobile design',
+  },
+]
+
+export const howWeWork = [
+  {
+    icon: '/c.svg',
+    name: 'Сontact',
+    text: 'Send us your project request or project idea.',
+  },
+  {
+    icon: '/a.svg',
+    name: 'Analysis',
+    text: 'We will contact you to clarify your project requirements.',
+  },
+  {
+    icon: '/o.svg',
+    name: 'Offer',
+    text: 'We will provide you with our free, non-binding application.',
+  },
+  {
+    icon: '/t.svg',
+    name: 'Team',
+    text: 'We provide a team for your requirements.',
+  },
+  {
+    icon: '/s.svg',
+    name: 'Start',
+    text: "You will get to know the team and we'll get started.",
   },
 ]

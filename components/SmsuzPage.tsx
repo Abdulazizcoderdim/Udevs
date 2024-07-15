@@ -4,7 +4,7 @@ import MaxWidth from './MaxWidth'
 const SmsuzPage = () => {
   return (
     <MaxWidth id="delever" className="bg-white py-24">
-      <div className="flex gap-10 max-[944px]:flex-col-reverse items-center justify-between">
+      <div className="flex flex-row-reverse gap-10 max-[944px]:flex-col-reverse items-center justify-between">
         <div className="w-1/2 max-[944px]:w-full">
           <img src="/sms1.png" alt="" />
         </div>

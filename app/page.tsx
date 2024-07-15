@@ -3,6 +3,7 @@ import DevelopmentPage from '@/components/DevelopmentPage'
 import ERPSystem from '@/components/ERPSystem'
 import GoodZonePage from '@/components/GoodZonePage'
 import HomePage from '@/components/HomePage'
+import HowWorkPage from '@/components/HowWorkPage'
 import ITConsulting from '@/components/ITConsulting'
 import ImanPage from '@/components/ImanPage'
 import MessageModal from '@/components/MessageModal'
@@ -29,9 +30,10 @@ export default function Home() {
         <ToolsPage />
         <OurClientsPage />
         <DeleverPage />
-        <SmsuzPage/>
-        <GoodZonePage/>
-        <ImanPage/>
+        <SmsuzPage />
+        <GoodZonePage />
+        <ImanPage />
+        <HowWorkPage />
       </main>
 
       <MessageModal />

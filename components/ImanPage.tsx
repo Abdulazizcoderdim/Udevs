@@ -4,12 +4,12 @@ import MaxWidth from './MaxWidth'
 const ImanPage = () => {
   return (
     <MaxWidth id="goodzone" className="bg-white py-24">
-      <div className="flex gap-10 max-[944px]:flex-col-reverse items-center justify-between">
+      <div className="flex gap-10 flex-row-reverse max-[944px]:flex-col-reverse items-center justify-between">
         <div className="w-1/2 max-[944px]:w-full">
           <img src="/imanbg.png" alt="" />
         </div>
         <div className="flex w-1/2 max-[944px]:w-full flex-col gap-5">
-          <img width={250} height={250} src="ii.svg" alt="" />
+          <img width={200} height={200} src="ii.svg" alt="" />
           <div className="flex w-36 text-center text-sm font-medium text-[#01CAB0] py-2 px-4 bg-[#CCF4EF] items-center gap-2 rounded-3xl">
             <img src="b.svg" alt="" />
             <span className="text-base">Finance</span>
