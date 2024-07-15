@@ -22,7 +22,7 @@ const SmsuzPage = () => {
             {delever.slice(0, 3).map((item, index) => (
               <li
                 className="bg-[#f4f7ff] min-w-[160px] p-5 rounded-lg"
-                key={index < 3 ? index : null}
+                key={index}
               >
                 <img src={item.icon} alt="" />
                 <p className="text-[#000] text-lg font-semibold mt-5">
