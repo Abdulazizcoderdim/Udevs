@@ -556,3 +556,75 @@ export const howWeWork = [
     text: "You will get to know the team and we'll get started.",
   },
 ]
+
+export const footerAbout = [
+  {
+    name: 'About us',
+    href: '#',
+  },
+  {
+    name: 'Direction',
+    href: '#',
+  },
+  {
+    name: 'Command',
+    href: '#',
+  },
+  {
+    name: 'Tools',
+    href: '#',
+  },
+  {
+    name: 'Clients',
+    href: '#',
+  },
+]
+
+export const footerSer = [
+  {
+    name: 'Services',
+    href: '#',
+  },
+  {
+    name: 'Development of mobile applications',
+    href: '#',
+  },
+  {
+    name: 'Development and implementation ERP systems',
+    href: '#',
+  },
+  {
+    name: 'Development and implementation ERP systems',
+    href: '#',
+  },
+  {
+    name: 'Development and implementation ERP systems',
+    href: '#',
+  },
+  {
+    name: 'Optimization IT consulting infrastructure',
+    href: '#',
+  },
+]
+export const footerPor = [
+  {
+    name: 'Portfolio',
+    href: '#',
+  },
+  {
+    name: 'Delever',
+    href: '#',
+  },
+  {
+    name: 'Sms.uz',
+    href: '#',
+  },
+  {
+    name: 'Goodzone',
+    href: '#',
+  },
+  {
+    name: 'Iman',
+    href: '#',
+  },
+]
