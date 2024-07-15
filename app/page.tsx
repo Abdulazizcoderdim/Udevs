@@ -1,3 +1,4 @@
+import ContactPage from '@/components/ContactPage'
 import DeleverPage from '@/components/DeleverPage'
 import DevelopmentPage from '@/components/DevelopmentPage'
 import ERPSystem from '@/components/ERPSystem'
@@ -34,6 +35,7 @@ export default function Home() {
         <GoodZonePage />
         <ImanPage />
         <HowWorkPage />
+        <ContactPage />
       </main>
 
       <MessageModal />
