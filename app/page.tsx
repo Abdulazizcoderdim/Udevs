@@ -1,3 +1,4 @@
+import DeleverPage from '@/components/DeleverPage'
 import DevelopmentPage from '@/components/DevelopmentPage'
 import ERPSystem from '@/components/ERPSystem'
 import HomePage from '@/components/HomePage'
@@ -24,6 +25,7 @@ export default function Home() {
         <ITConsulting />
         <ToolsPage />
         <OurClientsPage />
+        <DeleverPage />
       </main>
 
       <MessageModal />
