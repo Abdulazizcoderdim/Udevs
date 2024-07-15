@@ -505,3 +505,27 @@ export const toolsData = [
     bg: '#ced6ee',
   },
 ]
+
+
+export const delever = [
+  {
+    icon: '/web1.svg',
+    name: "Website"
+  },
+  {
+    icon: '/web2.svg',
+    name: "Admin panel"
+  },
+  {
+    icon: '/web3.svg',
+    name: "Crossplatform"
+  },
+  {
+    icon: '/web4.svg',
+    name: "Web design"
+  },
+  {
+    icon: '/web5.svg',
+    name: "Mobile design"
+  },
+]
