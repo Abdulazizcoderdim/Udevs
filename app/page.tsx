@@ -4,6 +4,7 @@ import ERPSystem from '@/components/ERPSystem'
 import GoodZonePage from '@/components/GoodZonePage'
 import HomePage from '@/components/HomePage'
 import ITConsulting from '@/components/ITConsulting'
+import ImanPage from '@/components/ImanPage'
 import MessageModal from '@/components/MessageModal'
 import OptimizationPage from '@/components/OptimizationPage'
 import OurClientsPage from '@/components/OurClientsPage'
@@ -30,6 +31,7 @@ export default function Home() {
         <DeleverPage />
         <SmsuzPage/>
         <GoodZonePage/>
+        <ImanPage/>
       </main>
 
       <MessageModal />
