@@ -3,10 +3,12 @@ import MaxWidth from './MaxWidth'
 
 const ERPSystem = () => {
   return (
-    <div id='erp' className="bg-[#f4f7ff]">
+    <div id="erp" className="bg-[#f4f7ff]">
       <MaxWidth className="py-24">
         <div>
-          <h1 className="text-64px max-[944px]:text-[32px] font-extrabold text-blue-1">ERP system</h1>
+          <h1 className="text-64px max-[944px]:text-[32px] font-extrabold text-blue-1">
+            ERP system
+          </h1>
           <div className="flex mt-10 max-[944px]:flex-col items-center max-[944px]:gap-16 gap-32 justify-between">
             <div
               className="w-1/2 max-[944px]:w-full h-[450px] rounded-lg flex justify-center items-center"
@@ -23,7 +25,7 @@ const ERPSystem = () => {
                 IT Systems of any level of complexity at a convenient time for
                 you
               </p>
-              <div className="grid grid-cols-3 gap-5">
+              <div className="grid md:grid-cols-3 grid-cols-2 gap-5">
                 {erpSer.map((item, index) => (
                   <div
                     key={index}

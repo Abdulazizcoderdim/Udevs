@@ -3,7 +3,7 @@ import MaxWidth from './MaxWidth'
 
 const OptimizationPage = () => {
   return (
-    <div id='optimization' className="bg-[#f4f7ff]">
+    <div id="optimization" className="bg-[#f4f7ff]">
       <MaxWidth className="py-24">
         <div>
           <h1 className="text-64px leading-none max-[944px]:text-[32px] font-extrabold text-blue-1">
@@ -25,7 +25,7 @@ const OptimizationPage = () => {
                 Our experienced professionals will help you optimize your
                 infrastructure
               </p>
-              <div className="grid grid-cols-3 gap-5">
+              <div className="grid md:grid-cols-3 grid-cols-2  gap-5">
                 {optimization.map((item, index) => (
                   <div
                     key={index}

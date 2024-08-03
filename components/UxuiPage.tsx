@@ -12,7 +12,7 @@ const UxuiPage = () => {
             <p className="text-2xl max-[944px]:mt-5 max-[944px]:text-base font-medium text-[#18191f]">
               Our company takes a human-centered approach to design
             </p>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid md:grid-cols-3 grid-cols-2 gap-4">
               <div className="w-[150px] bg-[#f4f7ff] py-[10px] pr-5 pl-[10px] rounded-md">
                 <img
                   width={56}
@@ -77,7 +77,7 @@ const UxuiPage = () => {
             <h1 className="text-[32px] font-extrabold text-[#464359]">
               Technoologies
             </h1>
-            <div className="flex items-center gap-16">
+            <div className="flex flex-wrap items-center gap-16">
               <div className="flex flex-col gap-3">
                 <img src="/figma.svg" alt="" />
                 <span className="text-xl font-semibold text-black">Figma</span>
